@@ -1,0 +1,15 @@
+   body {
+       background-color: #ceda21;
+       font-family: Arial, sans-serif;
+       margin: 0;
+       padding: 0;
+   }
+
+
+   h1 {
+       font-weight: 900;
+       font-size: 100px;
+       line-height: 122px;
+       color: #edf1ed !important;
+       color: #7a0ad6;
+   }

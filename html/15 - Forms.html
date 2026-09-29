@@ -1,0 +1,32 @@
+<!-- Forms 
+  - Capturar dados de entrada do usuário
+  -input -> Entrada
+
+  -Action -> Ação define para onde os dados do formulário serão enviados
+  Method -> Método define como os dados do formulário serão enviados
+       - GET 
+       - POST
+-->
+
+<form action="" method="get" enctype="multipart/form-data">
+    <h1>Formulário de Endereço </h1>
+    <label>
+        Endereço:
+        <input type="text" name="endereço" autocomplete="street-address" placeholder="Digite seu endereço">
+    </label>
+    <label>
+        Número:
+        <input type="number" name="numero" autocomplete="address-level2" placeholder="Digite o número">
+    </label>
+    <label>
+        Email:
+        <input type="email" name="email" autocomplete="email" placeholder="Digite seu email">
+    </label>
+    <br><br>
+    <label>
+        Foto:
+        <input type="file" name="foto" accept="image/*">
+    </label>
+    <button type="reset">Limpar</button>
+    <button type="submit">Enviar</button>
+</form>

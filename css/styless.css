@@ -1,0 +1,30 @@
+   body {
+       background-color: #f0f0f0;
+       font-family: Arial, sans-serif;
+       margin: 20px;
+   }
+
+   #titulo-principal,
+   #paragrafo-dois {
+       color: #f7eb46;
+       text-align: center;
+       background: black;
+   }
+
+   #paragrafo-um,
+   #botao-dois {
+       color: rgb(30, 100, 30);
+       line-height: 1.5;
+       font-size: 20px;
+   }
+
+   #botao-um {
+       background-color: #614caf;
+
+       border-color: #2d7531;
+   }
+
+
+   /*   folha de estilo em cascata 
+            prevalece sempre o ultimo código   
+   */
