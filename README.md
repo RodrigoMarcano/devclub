@@ -1,6 +1,6 @@
 # Projetos de Front-end — HTML e CSS
 
-Landing pages que construí durante a formação de front-end do [DevClub](https://devclub.com.br), reproduzindo layouts e evoluindo de páginas estáticas até um layout responsivo.
+Landing pages em HTML e CSS, das primeiras reproduções de layout da formação do [DevClub](https://devclub.com.br) até um site institucional completo e responsivo.
 
 🔗 **[Ver todos os projetos online](https://rodrigomarcano.github.io/devclub/)**
 
@@ -12,6 +12,7 @@ Landing pages que construí durante a formação de front-end do [DevClub](https
 
 | | Projeto | Destaques |
 | --- | --- | --- |
+| <img src="./landing-page-advocacia/preview-desktop.png" width="240"> | **[Landing page de advocacia](./landing-page-advocacia)**<br>[Ver online](https://rodrigomarcano.github.io/devclub/landing-page-advocacia/) | Site institucional completo, responsivo, com foco em gerar contatos |
 | <img src="./landing-page-responsiva/preview-desktop.png" width="240"> | **[Easy Shopping — Landing page responsiva](./landing-page-responsiva)**<br>[Ver online](https://rodrigomarcano.github.io/devclub/landing-page-responsiva/) | Flexbox, media queries, layout que se adapta ao celular |
 | <img src="./landing-page-mobilidade/preview.png" width="240"> | **[Wide Coverage — App de mobilidade](./landing-page-mobilidade)**<br>[Ver online](https://rodrigomarcano.github.io/devclub/landing-page-mobilidade/) | Reprodução de layout a partir de imagem, Flexbox, tipografia |
 | <img src="./landing-page-pet-shop/preview.png" width="240"> | **[We Care — Pet shop](./landing-page-pet-shop)**<br>[Ver online](https://rodrigomarcano.github.io/devclub/landing-page-pet-shop/) | Estrutura semântica, botões estilizados, fontes externas |

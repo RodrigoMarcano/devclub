@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 866 288" role="img" aria-label="Marina Duarte Advocacia">
+  <defs>
+    <linearGradient id="ouro" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3dfa0"/>
+      <stop offset="0.5" stop-color="#d4a956"/>
+      <stop offset="1" stop-color="#b8863b"/>
+    </linearGradient>
+  </defs>
+  <rect x="34" y="74" width="168" height="140" fill="none" stroke="url(#ouro)" stroke-width="4"/>
+  <text x="118" y="170" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="78" fill="url(#ouro)">MD</text>
+  <text x="232" y="152" font-family="Georgia, 'Times New Roman', serif" font-size="66" letter-spacing="3" fill="url(#ouro)">MARINA DUARTE</text>
+  <text x="236" y="198" font-family="Georgia, 'Times New Roman', serif" font-size="22" letter-spacing="7" fill="url(#ouro)">ADVOCACIA E CONSULTORIA JURÍDICA</text>
+</svg>
