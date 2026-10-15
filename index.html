@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos de Front-end — Rodrigo Sena Marçano</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+            background: #f5f6fa;
+            color: #1f2333;
+            padding: 48px 16px;
+        }
+
+        header { max-width: 1000px; margin: 0 auto 40px; }
+        h1 { font-size: 32px; margin-bottom: 8px; }
+        header p { color: #5b6075; }
+        header a { color: #3b5bdb; }
+
+        .grid {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover { transform: translateY(-4px); box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); }
+        .card img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; object-position: top; display: block; }
+        .card div { padding: 16px; }
+        .card h2 { font-size: 18px; margin-bottom: 6px; }
+        .card p { font-size: 14px; color: #5b6075; }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Projetos de Front-end</h1>
+        <p>Landing pages em HTML e CSS feitas durante a formação do DevClub, por
+            <a href="https://github.com/RodrigoMarcano">Rodrigo Sena Marçano</a>.</p>
+    </header>
+
+    <main class="grid">
+        <a class="card" href="./landing-page-responsiva/">
+            <img src="./landing-page-responsiva/preview-desktop.png" alt="Prévia da landing page Easy Shopping">
+            <div>
+                <h2>Easy Shopping</h2>
+                <p>Layout responsivo com Flexbox e media queries.</p>
+            </div>
+        </a>
+        <a class="card" href="./landing-page-mobilidade/">
+            <img src="./landing-page-mobilidade/preview.png" alt="Prévia da landing page Wide Coverage">
+            <div>
+                <h2>Wide Coverage</h2>
+                <p>Reprodução de layout de um app de mobilidade.</p>
+            </div>
+        </a>
+        <a class="card" href="./landing-page-pet-shop/">
+            <img src="./landing-page-pet-shop/preview.png" alt="Prévia da landing page We Care">
+            <div>
+                <h2>We Care</h2>
+                <p>Landing page de pet shop com botões estilizados.</p>
+            </div>
+        </a>
+    </main>
+</body>
+
+</html>
